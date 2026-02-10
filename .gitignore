@@ -1,0 +1,12 @@
+# IntelliJ Proje Dosyaları
+.idea/
+*.iml
+*.iws
+
+# Derlenmiş Java Dosyaları (Gereksiz)
+target/
+out/
+build/
+
+# Loglar vs.
+*.log
