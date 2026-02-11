@@ -25,7 +25,6 @@ public class MedicationService {
         User user = userRepository.findById(request.getUserId())
                 .orElseThrow(() -> new RuntimeException("Kullanıcı bulunamadı!"));
 // ---------------------------------------------------------------
-        // 🚧 GELECEKTEKİ AI KAPISI:
         // Burada yapay zeka servisini çağıracağız.
         // Örn: aiService.analizEt(user.getHealthProfile(), request.getActiveIngredient());
         // Eğer risk varsa kullanıcıya uyarı döneceğiz.

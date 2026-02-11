@@ -27,8 +27,3 @@ public class Reminder {
     private User user;
 }
 
-enum ReminderStatus {
-    BEKLIYOR,
-    ALINDI,
-    ATLANDI
-}
